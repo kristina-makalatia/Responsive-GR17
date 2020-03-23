@@ -1,0 +1,39 @@
+/*Responsive*/
+@media (max-width: 1190px){
+	.container {
+		padding: 0 15px;
+	}
+}
+@media (max-width: 1124px) {
+	.images-wraper {
+		flex-wrap: wrap;
+	}
+    .images {
+    	width:48%;
+    }
+}
+@media (max-width: 1024px) {
+	.mshobeli {
+		/*flex-direction: column;
+		align-items: center;*/
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.bg {
+		background-image: url('https://www.w3schools.com/w3css/img_lights.jpg');
+	}
+}
+@media (max-width: 480px) {
+	.mshobeli {
+		flex-direction: column-reverse;
+	}
+	.box2 p {
+		font-size: 30px;
+		text-transform: uppercase;
+	}
+	.images {
+    	width:100%;
+    	margin-top: 30px;
+    }
+
+}
